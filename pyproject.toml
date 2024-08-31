@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "mentalhealthsentimentanalysis"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Infantes <infantesromeroadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.1"
+seaborn = "^0.13.2"
+langchainhub = "^0.1.21"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+rouge-score = "^0.1.2"
+rouge = "^1.0.1"
+nltk = "^3.9.1"
+textblob = "^0.18.0.post0"
+sentence-transformers = "^3.0.1"
+imblearn = "^0.0"
+xgboost = "^2.1.1"
+fastembed = "^0.3.6"
+chromadb = "^0.5.5"
+protobuf = "3.20.3"
+python-dotenv = "^1.0.1"
+openai = "^1.42.0"
+tiktoken = "^0.7.0"
+langchain-openai = "^0.1.23"
+streamlit = "^1.38.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
