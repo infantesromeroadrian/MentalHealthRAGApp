@@ -9,6 +9,7 @@ from src.utils.logger import log_function_call, logger
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
 
+
 class PatientStatusClassifier:
     """
     Clasificador de estatus del paciente basado en el texto proporcionado.
@@ -57,4 +58,3 @@ class PatientStatusClassifier:
         status = self.model.predict(features)
         logger.info(f"Estatus clasificado: {status[0]} para el texto proporcionado.")
         return int(status[0])
-

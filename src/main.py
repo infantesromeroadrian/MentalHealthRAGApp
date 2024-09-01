@@ -4,7 +4,7 @@ from src.model.patient_status_classifier import PatientStatusClassifier
 from src.model.recommendation_generator import RecommendationGenerator
 from langchain.schema import Document
 from langchain.chains import RetrievalQA
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.llms import Ollama
 
@@ -23,12 +23,13 @@ status = classifier.classify_status(patient_text)
 
 # Mapear el estatus a una descripción legible
 status_mapping = {
-    1: "Ligeramente Ansioso",
-    2: "Moderadamente Ansioso",
-    3: "Muy Ansioso",
-    4: "Depresión Leve",
-    5: "Depresión Moderada",
-    6: "Depresión Severa"
+    0: "Ansiedad",
+    1: "Bipolaridad",
+    2: "Depresión",
+    3: "Normal",
+    4: "Trastorno de personalidad",
+    5: "Estrés",
+    6: "Suicida"
 }
 status_description = status_mapping.get(status, "Estatus desconocido")
 

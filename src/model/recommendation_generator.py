@@ -56,13 +56,15 @@ class RecommendationGenerator:
         Returns:
             str: Recomendación generada por el LLM.
         """
+        # Mapear los valores de status_encoded a descripciones legibles
         status_context = {
-            1: "El paciente está en un estado leve de ansiedad.",
-            2: "El paciente está experimentando un nivel moderado de ansiedad.",
-            3: "El paciente está en un estado alto de ansiedad y muestra síntomas de insomnio.",
-            4: "El paciente está en un estado de depresión leve.",
-            5: "El paciente está en un estado de depresión moderada.",
-            6: "El paciente está en un estado de depresión severa."
+            0: "El paciente está experimentando ansiedad.",
+            1: "El paciente muestra síntomas de bipolaridad.",
+            2: "El paciente está experimentando depresión.",
+            3: "El paciente se encuentra en un estado normal.",
+            4: "El paciente muestra signos de un trastorno de personalidad.",
+            5: "El paciente está bajo mucho estrés.",
+            6: "El paciente tiene pensamientos suicidas."
         }
 
         status_description = status_context.get(status, "Estatus desconocido")
@@ -71,7 +73,7 @@ class RecommendationGenerator:
         with open(self.guide_path, 'r', encoding='utf-8') as file:
             guide_content = file.read()
 
-        # Usar el sistema RAG para generar la recomendación basada en el input actual, el informe y el modo seleccionado
+        # Crear el prompt basado en el modo seleccionado
         if mode == "Bad Mode":
             prompt = (
                 f"Modo seleccionado: {mode}.\n"
