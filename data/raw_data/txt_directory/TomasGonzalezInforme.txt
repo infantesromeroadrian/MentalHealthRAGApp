@@ -215,3 +215,27 @@ Ansiedad: 5/10, Insomnio: 5/10, Fatiga: 5/10, Estado de ánimo: Muy bajo, Apetit
 
 Recomendación:
  Based on the patient's current status of stage 3 anxiety, a combination of cognitive-behavioral therapy (CBT) and medication may be beneficial. It is crucial that the patient consults with their healthcare provider before starting any treatment plan, as everyone's needs are different and a personalized approach is necessary. Additionally, encouraging the patient to engage in self-care activities like exercise, meditation or mindfulness practices, and practicing relaxation techniques can also help manage anxiety symptoms.
+
+
+---
+Input del Paciente:
+Muy feliz
+Ansiedad: 5/10, Insomnio: 5/10, Fatiga: 5/10, Estado de ánimo: Muy bajo, Apetito: Muy bajo, Concentración: Muy baja, Actividad física: 3 días por semana, Pensamientos suicidas: No, Apoyo social: Sí, Dificultad para respirar: No, Ataques de pánico: No
+
+Recomendación:
+ Based on the patient's current status of stage 3 anxiety, a combination of cognitive-behavioral therapy (CBT) and medication may be beneficial. It is crucial that the patient consults with their healthcare provider before starting any treatment plan, as everyone's needs are different and a personalized approach is necessary. Additionally, encouraging the patient to engage in self-care activities like exercise, meditation or mindfulness practices, and practicing relaxation techniques can also help manage anxiety symptoms.
+
+
+---
+Input del Paciente:
+Me siento feliz
+Ansiedad: 5/10, Insomnio: 5/10, Fatiga: 5/10, Estado de ánimo: Muy bajo, Apetito: Muy bajo, Concentración: Muy baja, Actividad física: 3 días por semana, Pensamientos suicidas: No, Apoyo social: Sí, Dificultad para respirar: No, Ataques de pánico: No
+
+Recomendación:
+ Based on the patient's current status of stage 3 anxiety and their reported symptoms, it is recommended that they receive a combination of cognitive-behavioral therapy (CBT) and medication. It is crucial that the patient consults with their healthcare provider before starting any treatment plan, as everyone's needs are different and a personalized approach is necessary. Additionally, encouraging the patient to engage in self-care activities like exercise, meditation or mindfulness practices, and practicing relaxation techniques can also help manage anxiety symptoms.
+
+---
+Input del Paciente:
+Muy feliz
+Ansiedad: 5/10, Insomnio: 5/10, Fatiga: 5/10, Estado de ánimo: Muy bajo, Apetito: Muy bajo, Concentración: Muy baja, Actividad física: 3 días por semana, Pensamientos suicidas: No, Apoyo social: Sí, Dificultad para respirar: No, Ataques de pánico: No
+Recomendación:

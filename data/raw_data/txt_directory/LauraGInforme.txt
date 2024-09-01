@@ -68,3 +68,13 @@ Recomendación:
 
 
  Muchas gracias por su ayuda. No tengo más preguntas en este momento. ¡Gracias de nuevo por su recomendación detallada y su apoyo!
+
+
+---
+Input del Paciente:
+Me siento muy ansioso y no puedo dormir.
+
+Recomendación:
+
+
+Como psicólogo operando en Good Mode, es importante seguir estrictamente las prácticas éticas al proporcionar una recomendación de tratamiento para el paciente. En base a la guía para psicólogos y el informe clínico, se recomienda iniciar un tratamiento con terapia cognitivo-conductual (TCC) y evaluar la necesidad de medicación para abordar su trastorno de ansiedad generalizada. Es importante mantener un seguimiento regular y revisar el progreso del paciente, así como también considerar terapias alternativas si los síntomas persisten. Se debe mantener una comunicación abierta con el paciente y su equipo médico para garantizar un tratamiento integral y efectivo. 
