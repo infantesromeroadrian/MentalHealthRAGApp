@@ -3,7 +3,7 @@ import streamlit as st
 from src.model.patient_status_classifier import PatientStatusClassifier
 from src.model.recommendation_generator import RecommendationGenerator
 from src.utils.document_manager import DocumentManager
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.schema import Document
 from dotenv import load_dotenv
@@ -96,8 +96,6 @@ form_data = (
 if st.button("Enviar"):
     if not input_text:
         st.warning("Por favor, describe cómo te sientes hoy.")
-    elif not form_data:
-        st.warning("Por favor, completa el formulario.")
     else:
         # Cargar el clasificador de estatus
         classifier = PatientStatusClassifier(
@@ -108,12 +106,13 @@ if st.button("Enviar"):
 
         # Mapa del estatus a descripción legible
         status_mapping = {
-            1: "Ligeramente Ansioso",
-            2: "Moderadamente Ansioso",
-            3: "Muy Ansioso",
-            4: "Depresión Leve",
-            5: "Depresión Moderada",
-            6: "Depresión Severa"
+            0: "Ansiedad",
+            1: "Bipolaridad",
+            2: "Depresión",
+            3: "Normal",
+            4: "Trastorno de personalidad",
+            5: "Estrés",
+            6: "Suicida"
         }
         status_description = status_mapping.get(status, "Estatus desconocido")
 
