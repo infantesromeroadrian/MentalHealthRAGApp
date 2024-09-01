@@ -29,6 +29,7 @@ openai = "^1.42.0"
 tiktoken = "^0.7.0"
 langchain-openai = "^0.1.23"
 streamlit = "^1.38.0"
+mlflow = "^2.16.0"
 
 
 [build-system]

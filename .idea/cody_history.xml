@@ -347,6 +347,196 @@
                   </llm>
                 </llm>
               </chat>
+              <chat>
+                <internalId value="473a8218-acc6-492a-8c0f-f3cc36b9677f" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="1a0b6590-bb4a-44b6-91d8-02f1ee112d87" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="a2fe2d2e-8bfe-448f-abab-3d85eaee04e0" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="196936c4-effc-404f-a47c-73e3a1f018ad" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="9e239297-2ac9-4b65-8814-1a5d412fe1da" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="bb477f40-2acf-4040-96ed-805c3c61cff1" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="d31d629e-d075-4507-96ef-4535a18c312d" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="52a6953d-dd90-4ba7-bb1e-54cd01ab95da" />
+              </chat>
+              <chat>
+                <internalId value="f2a175a4-60e3-47d7-a1d8-8ece896d75f4" />
+                <llm>
+                  <llm>
+                    <model value="ollama/llama3.1:latest" />
+                    <provider value="Ollama" />
+                    <tags>
+                      <list>
+                        <option value="local" />
+                        <option value="ollama" />
+                        <option value="experimental" />
+                      </list>
+                    </tags>
+                    <title value="llama3.1:latest" />
+                    <usage>
+                      <list>
+                        <option value="chat" />
+                        <option value="edit" />
+                      </list>
+                    </usage>
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="8c271bbe-c39d-4392-8945-397a2f84bbff" />
+              </chat>
             </list>
           </chats>
           <defaultLlm>
